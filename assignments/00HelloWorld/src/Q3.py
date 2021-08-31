@@ -1,10 +1,11 @@
 def main():
     #escribe tu código abajo de esta línea
-    x=2
-    y=13
-    while (x<12):
-        x=x*2
-        y+=2
-    print(x,y)
+    a=5
+    b=3
+    while (a>b):
+        b=b+2
+        a=a+1
+    print(a,b)
+    
 if __name__=='__main__':
     main()
